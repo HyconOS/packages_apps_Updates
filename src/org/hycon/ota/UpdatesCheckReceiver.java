@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.hycon.ota;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -29,10 +29,10 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 
 import org.json.JSONException;
-import org.pixelexperience.ota.controller.ABUpdateInstaller;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.hycon.ota.controller.ABUpdateInstaller;
+import org.hycon.ota.download.DownloadClient;
+import org.hycon.ota.misc.Utils;
+import org.hycon.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

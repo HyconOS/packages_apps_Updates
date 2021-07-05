@@ -14,12 +14,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.hycon.ota.model;
 
-import androidx.appcompat.app.AppCompatActivity;
+import java.util.ArrayList;
 
-public abstract class UpdatesListActivity extends AppCompatActivity {
-    public abstract void showSnackbar(int stringId, int duration);
+public interface UpdateBaseInfo {
+    String getName();
 
-    public abstract void showSnackbar(String text, int duration);
+    String getDownloadId();
+
+    long getTimestamp();
+
+    String getVersion();
+
+    String getDownloadUrl();
+
+    long getFileSize();
+
+    String getDonateUrl();
+
+    String getForumUrl();
+
+    String getWebsiteUrl();
+
+    String getNewsUrl();
+
+    ArrayList<MaintainerInfo> getMaintainers();
+
+    String getHash();
 }

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.hycon.ota.misc;
 
 public final class Constants {
     public static final String AB_PAYLOAD_BIN_PATH = "payload.bin";
@@ -30,9 +30,9 @@ public final class Constants {
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
     static final String PROP_DEVICE = "org.pixelexperience.device";
     static final String PROP_BUILD_VERSION = "org.pixelexperience.version";
-    static final String OTA_URL = "https://download.pixelexperience.org/ota_v5/%s/%s";
-    static final String OTA_CI_URL = "https://download.pixelexperience.org/ota_ci/%s/%s";
-    static final String MAINTAINER_URL = "https://download.pixelexperience.org/team/%s";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://download.pixelexperience.org/changelog/%s/%s";
-    static final String EXPORT_PATH = "PixelExperience-Updates/";
+    static final String OTA_URL = "https://raw.githubusercontent.com/Hycon-Devices/official_devices/master/builds/%s.json";
+    static final String OTA_CI_URL = "https://raw.githubusercontent.com/Hycon-Devices/official_devices/master/builds/%s.json";
+    static final String MAINTAINER_URL = "https://t.me/%s";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/Hycon-Devices/official_devices/master/changelogs/%s/%s.txt";
+    static final String EXPORT_PATH = "Hycon-Updates/";
 }

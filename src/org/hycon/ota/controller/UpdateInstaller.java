@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.hycon.ota.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,11 +22,11 @@ import android.os.SystemClock;
 import android.os.SystemProperties;
 import android.util.Log;
 
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.FileUtils;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.hycon.ota.misc.Constants;
+import org.hycon.ota.misc.FileUtils;
+import org.hycon.ota.misc.Utils;
+import org.hycon.ota.model.UpdateInfo;
+import org.hycon.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

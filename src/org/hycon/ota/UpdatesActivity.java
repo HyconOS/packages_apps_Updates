@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.hycon.ota;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -48,20 +48,20 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import org.pixelexperience.ota.controller.ABUpdateInstaller;
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.hycon.ota.controller.ABUpdateInstaller;
+import org.hycon.ota.controller.UpdaterController;
+import org.hycon.ota.controller.UpdaterService;
+import org.hycon.ota.download.DownloadClient;
+import org.hycon.ota.misc.Constants;
+import org.hycon.ota.misc.Utils;
+import org.hycon.ota.model.UpdateInfo;
+import org.hycon.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
 
-import static org.pixelexperience.ota.model.UpdateStatus.UNKNOWN;
+import static org.hycon.ota.model.UpdateStatus.UNKNOWN;
 
 public class UpdatesActivity extends UpdatesListActivity {
 
